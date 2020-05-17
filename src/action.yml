@@ -1,0 +1,12 @@
+name: 'Validate & Deploy Flags'
+description: 'Validate & Deploy feature flags'
+runs:
+  using: 'node12'
+  main: 'index.js'
+inputs:
+  feature-flags-github-app-id:
+    description: 'Github App ID'
+    required: true
+  feature-flags-private-key:
+    description: 'Secret Key'
+    required: true

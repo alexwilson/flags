@@ -1,0 +1,26 @@
+{
+  "name": "flags",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexwilson/flags.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexwilson/flags/issues"
+  },
+  "homepage": "https://github.com/alexwilson/flags#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^2.2.0",
+    "@octokit/auth-app": "^2.4.5",
+    "@octokit/rest": "^17.9.1"
+  }
+}
